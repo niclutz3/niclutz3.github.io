@@ -24,6 +24,9 @@ Predicting 30-day readmission risk using **SQL (SSMS)**, **Power BI**, and clini
 ### [🛡️ FinGuard: Financial Fraud Analytics](./financial-fraud.html)
 Automating financial oversight using **Power BI**, **SQL (SSMS)**, and **DAX**. I architected an unpivoted data model to detect high-risk patterns like account drainage and "mule" accounts, quantifying over $42M in potential fraud exposure.
 
+### [🛒 Retail Sales & Customer Demographics](./retail-marketing.html)
+Modernizing retail decision-making by converting transactional logs into a **BI environment** using **Power BI** and **DAX**. I implemented a semantic design strategy and custom DAX binning to identify high-value customer personas and regional spend patterns.
+
 ---
 
 ## 🛠 Tech Stack
