@@ -1,5 +1,6 @@
-<img src="./headshot.jpg" width="200" style="border-radius: 50%;" alt="Nic Lutz Headshot"> # Nic Lutz | Aspiring Data Analyst
+<img src="./headshot.jpg" width="200" style="border-radius: 50%;" alt="Nic Lutz Headshot">
 
+# Nic Lutz | Aspiring Data Analyst
 Recent Management Information Systems graduate from the **University of Georgia - Terry College of Business**. I specialize in bridging the gap between complex data and business strategy by turning raw data into clear, actionable stories.
 
 ---
