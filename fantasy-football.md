@@ -6,7 +6,6 @@ I built this project to take the guesswork out of fantasy football. By analyzing
 ---
 
 ## 📊 The Dashboard
-I exported my report to a high-resolution format to ensure every data point and positional slicer is crisp and readable.
 
 ![Fantasy Football Dashboard](./FantasyMainGIT.png)
 *This Power BI dashboard features positional slicers and scatter plots to compare "Ceiling vs. Floor" metrics in real-time.*
@@ -14,7 +13,6 @@ I exported my report to a high-resolution format to ensure every data point and 
 ---
 
 ## 📋 Methodology & Documentation
-To keep the project organized and professional, I created technical documentation that outlines the entire data pipeline—from ingestion to the final visualizations.
 
 ![Project Documentation](./FantasyDocGIT.png)
 *Technical documentation featuring the project methodology, data dictionary, and relational schema.*
