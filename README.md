@@ -18,6 +18,9 @@ Recent Management Information Systems graduate from the **University of Georgia 
 ### [🏈 Fantasy Football Analytics](./fantasy-football.html)
 A data-driven approach to draft strategy using **SQL (SSMS)** and **Power BI**. I architected a custom relational database to identify market inefficiencies and "sleeper" candidates based on historical performance.
 
+### [🏥 Hospital Readmission & Risk Analytics](./hospital-readmission.html)
+Predicting 30-day readmission risk using **SQL (SSMS)**, **Power BI**, and clinical **LACE scoring**. I engineered a custom database view to identify high-risk departments, specifically flagging Emergency and Internal Medicine as priority areas for resource allocation.
+
 ---
 
 ## 🛠 Tech Stack
