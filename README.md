@@ -21,6 +21,9 @@ A data-driven approach to draft strategy using **SQL (SSMS)** and **Power BI**. 
 ### [🏥 Hospital Readmission & Risk Analytics](./hospital-readmission.html)
 Predicting 30-day readmission risk using **SQL (SSMS)**, **Power BI**, and clinical **LACE scoring**. I engineered a custom database view to identify high-risk departments, specifically flagging Emergency and Internal Medicine as priority areas for resource allocation.
 
+### [🛡️ FinGuard: Financial Fraud Analytics](./financial-fraud.html)
+Automating financial oversight using **Power BI**, **SQL (SSMS)**, and **DAX**. I architected an unpivoted data model to detect high-risk patterns like account drainage and "mule" accounts, quantifying over $42M in potential fraud exposure.
+
 ---
 
 ## 🛠 Tech Stack
