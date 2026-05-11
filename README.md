@@ -1,7 +1,7 @@
 <table border="0">
   <tr>
     <td width="200" style="border: none; background: none;">
-      <img src="headshot.jpg" width="180" style="border-radius: 50%;" alt="Nic Lutz Headshot">
+      <img src="headshot.jpeg" width="180" style="border-radius: 50%;" alt="Nic Lutz Headshot">
     </td>
     <td valign="center" style="border: none; background: none;">
       <h1 style="border: none; margin: 0;">Nic Lutz | Aspiring Data Analyst</h1>
