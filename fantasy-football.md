@@ -49,3 +49,4 @@ SELECT
 FROM DraftPositions a
 INNER JOIN v_AllPerformance s ON a.Player = s.Player
 WHERE s.FPTS IS NOT NULL;
+```
