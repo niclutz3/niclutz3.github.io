@@ -19,5 +19,5 @@ A data-driven approach to draft strategy using **SQL (SSMS)** and **Power BI**. 
 ---
 
 📫 **Let's Connect!**
-* [cite_start]**LinkedIn:** [linkedin.com/in/nic-w-lutz](https://www.linkedin.com/in/nic-w-lutz) [cite: 4]
-* [cite_start]**Email:** [nicolutz03@gmail.com](mailto:nicolutz03@gmail.com) [cite: 1]
+* **LinkedIn:** [linkedin.com/in/nic-w-lutz](https://www.linkedin.com/in/nic-w-lutz)
+* **Email:** [nicolutz03@gmail.com](mailto:nicolutz03@gmail.com) 
