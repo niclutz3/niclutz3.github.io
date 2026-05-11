@@ -1,11 +1,11 @@
 <table>
   <tr>
     <td width="200">
-      <img src="headshot.jpg" width="180" style="border-radius: 50%;" alt="Nic Lutz Headshot">
+      <img src="headshot.jpeg" width="180" style="border-radius: 50%;" alt="Nic Lutz Headshot">
     </td>
     <td valign="center">
       <h1>Nic Lutz</h1>
-      <h3>Aspiring Data Analyst | MIS @ UGA</h3>
+      <h3>Aspiring Data Analyst | MIS Grad From UGA</h3>
     </td>
   </tr>
 </table>
