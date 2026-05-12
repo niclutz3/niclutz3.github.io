@@ -13,29 +13,29 @@ Recent Management Information Systems graduate from the **University of Georgia 
 
 ---
 
-## 📁 Featured Projects
+## Featured Projects
 
-### [🏈 Fantasy Football Analytics](./fantasy-football.html)
+### [Fantasy Football Analytics](./fantasy-football.html)
 A data-driven approach to draft strategy using **SQL (SSMS)** and **Power BI**. I architected a custom relational database to identify market inefficiencies and "sleeper" candidates based on historical performance.
 
-### [🏥 Hospital Readmission & Risk Analytics](./hospital-readmission.html)
+### [Hospital Readmission & Risk Analytics](./hospital-readmission.html)
 Predicting 30-day readmission risk using **SQL (SSMS)**, **Power BI**, and clinical **LACE scoring**. I engineered a custom database view to identify high-risk departments, specifically flagging Emergency and Internal Medicine as priority areas for resource allocation.
 
-### [🛡️ FinGuard: Financial Fraud Analytics](./financial-fraud.html)
+### [FinGuard: Financial Fraud Analytics](./financial-fraud.html)
 Automating financial oversight using **Power BI**, **SQL (SSMS)**, and **DAX**. I architected an unpivoted data model to detect high-risk patterns like account drainage and "mule" accounts, quantifying over $42M in potential fraud exposure.
 
-### [🛒 Retail Sales & Customer Demographics](./retail-marketing.html)
+### [Retail Sales & Customer Demographics](./retail-marketing.html)
 Modernizing retail decision-making by converting transactional logs into a **BI environment** using **Power BI** and **DAX**. I implemented a semantic design strategy and custom DAX binning to identify high-value customer personas and regional spend patterns.
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 * **Analytics & BI:** Power BI (DAX), Tableau, Snowflake, Excel
 * **Data Tools:** SQL (Snowflake, SSMS), Python, R, Apache Spark
 * **Methodology:** Data Modeling, ETL, Dashboard Design, & Process Improvement 
 
 ---
 
-📫 **Let's Connect!**
+**Let's Connect!**
 * **LinkedIn:** [linkedin.com/in/nic-w-lutz](https://www.linkedin.com/in/nic-w-lutz)
 * **Email:** [nicolutz03@gmail.com](mailto:nicolutz03@gmail.com) 
