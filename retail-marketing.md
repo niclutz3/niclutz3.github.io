@@ -8,7 +8,6 @@ Retailers often sit on mountains of transactional data without knowing who their
 ## 📊 The Dashboard
 
 ![Retail Marketing Dashboard](./MarketingMainGIT.png)
-*A comprehensive overview featuring geospatial mapping, income distribution, and "Monetary vs. Demographic" visual tracking.*
 
 ---
 
@@ -25,7 +24,6 @@ Retailers often sit on mountains of transactional data without knowing who their
 I implemented a **Semantic Color Palette** to improve user navigation: Yellow was used strictly for "Monetary" metrics (Revenue/AOV), while Teal was reserved for "Demographics" (Gender/Income). This reduces cognitive load for the end-user.
 
 ![Project Documentation](./MarketingDocGIT.png)
-*Technical documentation featuring the flattened data model and the Power Query binning logic used for Age and Income segments.*
 
 ### **The Lifecycle**
 * **Data Cleansing:** Used **SQL** to flatten disparate tables into a single view, ensuring referential integrity before the data ever touched the visualization layer.
