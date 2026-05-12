@@ -1,17 +1,17 @@
-# 🛒 Retail Sales & Customer Demographics
+# Retail Sales & Customer Demographics
 ### *Transforming Fragmented Logs into Market Intelligence*
 
 Retailers often sit on mountains of transactional data without knowing who their best customers actually are. I built this 360-degree view to bridge that gap, converting raw logs into a dynamic environment that identifies high-value segments and regional demand.
 
 ---
 
-## 📊 The Dashboard
+## The Dashboard
 
 ![Retail Marketing Dashboard](./MarketingMainGIT.png)
 
 ---
 
-## 🎯 Key Insights: What the Data Revealed
+## Key Insights: What the Data Revealed
 
 * **The High-Value Persona:** The data reveals that the **"Medium" income bracket** is the primary driver of volume, outperforming both the Low and High brackets in total customer count.
 * **Spending Power:** Despite the volume in the Medium bracket, the **Average Order Value (AOV) stands strong at $261.44**, providing a clear benchmark for upselling strategies.
@@ -20,7 +20,7 @@ Retailers often sit on mountains of transactional data without knowing who their
 
 ---
 
-## 📋 Methodology & Design Strategy
+## Methodology & Design Strategy
 I implemented a **Semantic Color Palette** to improve user navigation: Yellow was used strictly for "Monetary" metrics (Revenue/AOV), while Teal was reserved for "Demographics" (Gender/Income). This reduces cognitive load for the end-user.
 
 ![Project Documentation](./MarketingDocGIT.png)
@@ -32,7 +32,7 @@ I implemented a **Semantic Color Palette** to improve user navigation: Yellow wa
 
 ---
 
-## 💻 The Logic: Advanced DAX Patterns
+## The Logic: Advanced DAX Patterns
 To go beyond simple totals, I authored complex measures to track **Recency** and **Frequency**, which are the building blocks of RFM (Recency, Frequency, Monetary) analysis.
 
 ```dax
