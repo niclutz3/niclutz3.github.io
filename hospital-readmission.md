@@ -8,7 +8,6 @@ High hospital readmission rates in diabetes patients are a multi-million dollar 
 ## 📊 The Dashboard
 
 ![Healthcare Analytics Dashboard](./HealthcareMainGIT.png)
-*This high-resolution dashboard features demographic heatmaps and interactive benchmark lines to track readmission rates against hospital goals.*
 
 ---
 
@@ -23,7 +22,6 @@ High hospital readmission rates in diabetes patients are a multi-million dollar 
 ## 📋 Methodology & Technical Specifications
 
 ![Project Documentation](./HealthcareDocGIT.png)
-*Technical documentation outlining the LACE score calculation (Length of Stay, Acuity, Comorbidity, Emergency) and the relational data model.*
 
 ### **The Lifecycle**
 * **Data Engineering:** Developed a custom SQL View in **SSMS** to calculate the LACE Score. This centralized the complex clinical logic at the source level.
