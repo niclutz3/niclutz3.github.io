@@ -21,7 +21,6 @@ Retailers often sit on mountains of transactional data without knowing who their
 ---
 
 ## Methodology & Design Strategy
-I implemented a **Semantic Color Palette** to improve user navigation: Yellow was used strictly for "Monetary" metrics (Revenue/AOV), while Teal was reserved for "Demographics" (Gender/Income). This reduces cognitive load for the end-user.
 
 ![Project Documentation](./MarketingDocGIT.png)
 
