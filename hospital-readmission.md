@@ -1,17 +1,17 @@
-# 🏥 Hospital Readmission & Risk Analytics
+# Hospital Readmission & Risk Analytics
 ### *Predicting Patient Risk Using Clinical Data & LACE Scoring*
 
 High hospital readmission rates in diabetes patients are a multi-million dollar challenge for healthcare systems. I built this project to identify the clinical and demographic drivers behind these 30-day readmissions, providing a roadmap for hospital administrators to focus their resources.
 
 ---
 
-## 📊 The Dashboard
+## The Dashboard
 
 ![Healthcare Analytics Dashboard](./HealthcareMainGIT.png)
 
 ---
 
-## 🎯 Key Insights: What the Data Revealed
+## Key Insights: What the Data Revealed
 
 * **The "Emergency" Factor:** The data clearly showed that **Emergency admissions** have the highest readmission rate (~11.52%), significantly outperforming elective or newborn routes.
 * **High-Volume Risk:** **Internal Medicine** is the highest-volume specialty but also carries a substantial risk profile. This suggests that resource allocation should be focused on post-discharge follow-ups specifically for Internal Med patients.
@@ -19,7 +19,7 @@ High hospital readmission rates in diabetes patients are a multi-million dollar 
 
 ---
 
-## 📋 Methodology & Technical Specifications
+## Methodology & Technical Specifications
 
 ![Project Documentation](./HealthcareDocGIT.png)
 
@@ -30,7 +30,7 @@ High hospital readmission rates in diabetes patients are a multi-million dollar 
 
 ---
 
-## 💻 The Logic: SQL LACE Score
+## The Logic: SQL LACE Score
 Instead of calculating the LACE risk score inside Power BI using DAX, I engineered it directly into a **SQL View**. This ensures "one source of truth" for the clinical logic and keeps the dashboard performance snappy by handling the heavy math at the database level.
 
 ```sql
