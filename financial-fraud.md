@@ -1,17 +1,17 @@
-# 🛡️ FinGuard: Financial Fraud Analytics
+# FinGuard: Financial Fraud Analytics
 ### *Automating Oversight with Data-Driven Monitoring*
 
 Manual investigative sampling is often too slow to catch sophisticated fraud. I built this project to transform raw transaction logs into an automated monitoring solution, specifically designed to catch "drain" attacks and burner account activities in real-time.
 
 ---
 
-## 📊 The Dashboard
+## The Dashboard
 
 ![Financial Fraud Dashboard](./FinancialMainGIT.png)
 
 ---
 
-## 🎯 Key Insights: What the Data Revealed
+## Key Insights: What the Data Revealed
 
 * **High-Value Exposure:** Transactions exceeding the 99th percentile (Is_HighValue) accounted for nearly **$40M** in potential fraud loss, indicating that large-scale transfers are the primary risk vector.
 * **"Drain" Attack Patterns:** The **Is_EmptyOut** logic identified a high concentration of fraud where account balances were wiped to zero in a single transaction—a hallmark of account takeover attacks.
@@ -20,7 +20,7 @@ Manual investigative sampling is often too slow to catch sophisticated fraud. I 
 
 ---
 
-## 📋 Methodology & Technical Specifications
+## Methodology & Technical Specifications
 A key technical challenge was handling the flat detection flags in the raw data without causing data inflation or losing row-level integrity.
 
 ![Project Documentation](./FinancialDocGIT.png)
@@ -32,7 +32,7 @@ A key technical challenge was handling the flat detection flags in the raw data 
 
 ---
 
-## 💻 The Logic: DAX Detection Patterns
+## The Logic: DAX Detection Patterns
 To drive the analytics on the dashboard, I engineered custom DAX measures. These allow for dynamic filtering—meaning when an investigator clicks on a specific "Detection Logic," these KPIs update instantly to show the specific risk associated with that pattern.
 
 ```dax
