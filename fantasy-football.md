@@ -1,17 +1,17 @@
-# 🏈 Fantasy Football Analytics 
+# Fantasy Football Analytics 
 ### *Moving from "Gut Feeling" to Data-Driven Drafting*
 
 I built this project to take the guesswork out of fantasy football. By analyzing historical player performance against market costs (ADP), I created a tool that identifies "sleepers" and high-value-over-replacement candidates.
 
 ---
 
-## 📊 The Dashboard
+## The Dashboard
 
 ![Fantasy Football Dashboard](./FantasyMainGIT.png)
 
 ---
 
-## 🎯 Key Insights: What the Data Revealed
+## Key Insights: What the Data Revealed
 The ultimate goal was to move away from "gut feelings" and use math to find market inefficiencies. By calculating the **Draft Delta**, I was able to mathematically identify the biggest "steals" of the season.
 
 * **Identifying "True" Sleepers:** The analysis flagged several high-value players like **Tyler Shough** and **Daniel Jones** who had a Draft Delta of -190 or lower. This means their actual performance rank was nearly 200 spots better than where they were being drafted.
@@ -20,7 +20,7 @@ The ultimate goal was to move away from "gut feelings" and use math to find mark
 
 ---
 
-## 📋 Methodology & Documentation
+## Methodology & Documentation
 
 ![Project Documentation](./FantasyDocGIT.png)
 
@@ -31,7 +31,7 @@ The ultimate goal was to move away from "gut feelings" and use math to find mark
 
 ---
 
-## 💻 The Logic: SQL Deep Dive
+## The Logic: SQL Deep Dive
 The most significant challenge was standardizing team names and calculating the **Draft Delta**—a metric I engineered to show who is outperforming their draft position.
 
 ```sql
