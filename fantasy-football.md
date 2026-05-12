@@ -8,7 +8,6 @@ I built this project to take the guesswork out of fantasy football. By analyzing
 ## 📊 The Dashboard
 
 ![Fantasy Football Dashboard](./FantasyMainGIT.png)
-*This Power BI dashboard features positional slicers and scatter plots to compare "Ceiling vs. Floor" metrics in real-time.*
 
 ---
 
@@ -24,7 +23,6 @@ The ultimate goal was to move away from "gut feelings" and use math to find mark
 ## 📋 Methodology & Documentation
 
 ![Project Documentation](./FantasyDocGIT.png)
-*Technical documentation featuring the project methodology, data dictionary, and relational schema.*
 
 ### **Project Lifecycle**
 * **Data Ingestion:** Sourced raw performance and ADP data via CSV, importing everything into **Microsoft SQL Server**.
