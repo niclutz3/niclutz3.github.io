@@ -13,7 +13,6 @@ Retailers often sit on mountains of transactional data without knowing who their
 ---
 
 ## 🎯 Key Insights: What the Data Revealed
-To address the "So What?", here is exactly what this analysis uncovered for the business:
 
 * **The High-Value Persona:** The data reveals that the **"Medium" income bracket** is the primary driver of volume, outperforming both the Low and High brackets in total customer count.
 * **Spending Power:** Despite the volume in the Medium bracket, the **Average Order Value (AOV) stands strong at $261.44**, providing a clear benchmark for upselling strategies.
