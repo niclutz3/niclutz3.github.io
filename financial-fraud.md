@@ -8,12 +8,10 @@ Manual investigative sampling is often too slow to catch sophisticated fraud. I 
 ## 📊 The Dashboard
 
 ![Financial Fraud Dashboard](./FinancialMainGIT.png)
-*An interactive monitoring solution featuring Outlier Analysis and "Detection Logic" performance breakdowns.*
 
 ---
 
 ## 🎯 Key Insights: What the Data Revealed
-By moving away from manual sampling to full-scale data monitoring, the analysis uncovered several critical patterns:
 
 * **High-Value Exposure:** Transactions exceeding the 99th percentile (Is_HighValue) accounted for nearly **$40M** in potential fraud loss, indicating that large-scale transfers are the primary risk vector.
 * **"Drain" Attack Patterns:** The **Is_EmptyOut** logic identified a high concentration of fraud where account balances were wiped to zero in a single transaction—a hallmark of account takeover attacks.
@@ -26,7 +24,6 @@ By moving away from manual sampling to full-scale data monitoring, the analysis 
 A key technical challenge was handling the flat detection flags in the raw data without causing data inflation or losing row-level integrity.
 
 ![Project Documentation](./FinancialDocGIT.png)
-*Technical documentation featuring the unpivoted data schema and the specific fraud detection logic used.*
 
 ### **The Lifecycle**
 * **Data Architecture:** Leveraged **Power Query** to unpivot detection flags into an attribute-value model. This "Unpivoted Schema" allows for dynamic comparisons across different detection logics without duplicating data.
