@@ -9,7 +9,7 @@
   </tr>
 </table>
 
-Recent Management Information Systems graduate from the **University of Georgia - Terry College of Business**. I specialize in bridging the gap between complex data and business strategy by turning raw data into clear, actionable stories.
+Recent Management Information Systems graduate from the **University of Georgia - Terry College of Business** with an **Area of Emphasis** in both **Data** and **Business Analytics**. I specialize in bridging the gap between complex data and business strategy by turning raw data into clear, actionable stories.
 
 ---
 
