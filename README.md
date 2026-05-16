@@ -15,6 +15,9 @@ Recent Management Information Systems graduate from the **University of Georgia 
 
 ## Featured Projects
 
+### [ContextQuery: AI Data Pipeline](./context-query.html)
+Translating natural language into executable database queries using **Python**, **ChromaDB**, and **Neon Postgres**. I developed a search pipeline to dynamically map conversational user intent to live cloud database schemas, streaming analytics results in real-time.
+
 ### [Fantasy Football Analytics](./fantasy-football.html)
 A data-driven approach to draft strategy using **SQL (SSMS)** and **Power BI**. I architected a custom relational database to identify market inefficiencies and "sleeper" candidates based on historical performance.
 
