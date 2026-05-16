@@ -9,7 +9,7 @@ I built this project to bridge the gap between business intelligence and generat
 
 ![ContextQuery Main Interface](./ContextQueryMainPage.png)
 
-**How to Use the Site:** Simply enter any plain-English business question into the interactive command terminal. The pipeline processes the natural language intent in real-time, queries the live dataset from the serverless cloud, and returns a clean data frame with an option to display the exact SQL query used to generate the result.
+**How It Works:** Simply enter any plain-English business question into the interactive command terminal. The pipeline processes the natural language intent in real-time, queries the live dataset from the serverless cloud, and returns a clean data frame with an option to display the exact SQL query used to generate the result.
 
 ---
 
@@ -56,10 +56,9 @@ Validating that the agent can intelligently handle text filtering, case sensitiv
 ---
 
 ## Technical Constraints & Future Horizons
-Acknowledging the boundaries of the current architecture demonstrates product maturity and outlines clear optimization paths for production environments:
 
-* **Free-Tier Boundaries:** Operating entirely on free cloud tiers introduces two clear production constraints. First, Neon Postgres compute instances automatically pause after periods of inactivity, causing a "cold start" latency delay on initial queries. Second, the Gemini 3.1 Flash-Lite API operates under strict free-tier token allocations and per-minute rate limits, bounding the volume of consecutive translations the pipeline can process without scaling to a paid enterprise tier.
-* **Schema Scale Boundaries:** The vector lookup structure handles standalone transactional logging flawlessly. However, a massive enterprise data warehouse containing hundreds of heavily normalized tables would overwhelm a single prompt injection layer, requiring multi-agent routing filters to scale.
+* **Free-Tier Boundaries:** Operating entirely on free cloud tiers introduces two clear production constraints. First, Neon Postgres compute instances automatically pause after periods of inactivity, causing a "cold start" latency delay on initial queries. Second, the Gemini 3.1 Flash-Lite API operates under strict free-tier token allocations and per-minute rate limits, bounding the volume of consecutive questions the pipeline can process without scaling to a paid enterprise tier.
+* **Schema Scale Boundaries:** The vector lookup structure handles standalone transactional logging flawlessly. However, a larger enterprise data warehouse containing hundreds of heavily normalized tables would overwhelm a single prompt injection layer, requiring multi-agent routing filters to scale.
 * **Security & Write Boundaries:** The pipeline is intentionally architected as a strict, read-only analytical extraction layer (`SELECT`). It excludes the routing permissions required for state-altering changes (`UPDATE`, `DELETE`), guaranteeing structural safety from conversational user inputs.
 
 ---
